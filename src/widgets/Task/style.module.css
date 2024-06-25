@@ -1,0 +1,38 @@
+.mainTask {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    gap: 68px;
+}
+
+.mainTask input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.mainTask p {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    word-break: break-all;
+}
+
+.mainTask button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.mainTask button:hover {
+    background-color: #ff1a1a;
+}
